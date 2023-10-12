@@ -1,0 +1,101 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans';
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(155, 184, 155);
+}
+
+#panel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#ptop {
+    padding: 0px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(72, 104, 72);
+}
+
+.elem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    color: rgb(18, 119, 57);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+#pbtm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 80px);
+    color: black;
+    background-color: #fff;
+    gap: 10px;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(72, 104, 72);
+    border-radius: 50%;
+}
+
+.bubble:hover {
+    background-color: rgb(39, 65, 39);
+}
+
+#restartbtn,
+#startbtn {
+    background-color: rgb(18, 119, 57);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#restartbtn,
+#startbtn :hover {
+    cursor: pointer;
+}
